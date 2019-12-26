@@ -1,0 +1,252 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url(https://ananda-yoga.ro/wp-content/uploads/2019/02/grey-background-for-site-for-website-1432015867-1.jpg);
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.header-container {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.bar-container {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: none;
+	border-radius: 50px;
+	width: 1300px;
+	background-image: linear-gradient(to right, orange, yellow, orange);
+	color: brown;
+}
+
+.fa-bars {
+	margin-left: 5px;
+	margin-right: 380px;
+	color: brown;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.fa-bars:hover {
+	background-color: white;
+	border-radius: 70px;
+}
+
+.search-box {
+	margin-left: 5px;
+	margin-right: 220px;
+	width: 450px;
+	height: 30px;
+	border: none;
+	border-radius: 50px;
+	color: brown;
+	text-align: center;
+	background-color: lightgray;
+}
+
+.fa-user-circle, .fa-heart, .fa-cog {
+	margin-left: 45px;
+	color: gray;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.fa-user-circle:hover {
+	background-color: blue;
+	border-radius: 70px;
+}
+
+.fa-heart:hover {
+	background-color: red;
+	border-radius: 70px;
+}
+
+.fa-cog:hover {
+	background-color: black;
+	border-radius: 70px;
+}
+
+.main-container {
+	margin: 10px 10px 10px 10px;
+	padding: 8px 8px 8px 8px;
+}
+
+.name-app {
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	cursor: pointer;
+	color: orange;
+}
+
+.slide-1 {
+	width: 400px;
+	height: 400px;
+	border: none;
+	border-radius: 50px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 1px;
+	margin-right: 5px;
+	cursor: pointer;
+	background-image: url(http://www.allwhitebackground.com/images/5/City-Background-Images-HD.jpg);
+}
+
+.slide-1:hover {
+	box-shadow: 5px 5px 5px 5px;
+	color: blue;
+}
+
+.slide-2 {
+	width: 400px;
+	height: 400px;
+	border: none;
+	border-radius: 50px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 1px;
+	margin-right: 45px;
+	cursor: pointer;
+	background-image: url(https://image.freepik.com/free-photo/cityscape-downtown-background-city-chinese-famous_1417-1175.jpg);
+}
+
+.slide-2:hover {
+	box-shadow: 5px 5px 5px 5px;
+	color: yellow;
+}
+
+.slide-3 {
+	width: 400px;
+	height: 400px;
+	border: none;
+	border-radius: 50px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	margin-right: 30px;
+	cursor: pointer;
+	background-image: url(http://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+}
+
+.slide-3:hover {
+	box-shadow: 5px 5px 5px 5px;
+	color: red;
+}
+
+.text-1 {
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	cursor: pointer;
+}
+
+.text-2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	cursor: pointer;
+}
+
+.text-3 {
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	cursor: pointer;
+}
+
+.activitati {
+	font-size: 25px;
+	font-family: sans-serif;
+	margin: 22px 22px 22px 22px;
+	padding: 20px 20px 20px 20px;
+	color: orange;
+	cursor: pointer;
+}
+
+.add {
+	border: none;
+	border-radius: 50px;
+	color: brown;
+	margin-left: 130px;
+	background-color: lightgray;
+	cursor: pointer;
+	font-family: sans-serif;
+	text-shadow: 2px 2px 2px 2px;
+}
+
+.add:hover {
+	background-color: lightgray;
+	box-shadow: 1px 1px 1px 1px;
+	color: gray;
+}
+
+.footer-content {
+	margin: 10px 10px 10px 10px;
+	padding: 8px 8px 8px 8px;
+}
+
+.info-content {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.title-dev {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: orange;
+}
+
+.fa-chrome, .fa-android, .fa-apple {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 255px;
+	margin-right: 0;
+	font-size: 30px;
+	border: double;
+	border-radius: 50px;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.fa-chrome:hover {
+	background-image: linear-gradient(to right, green, red, yellow, blue);
+}
+
+.fa-android:hover {
+	background-color: green;
+}
+
+.fa-apple:hover {
+	background-color: white;
+}
+
+.fa-chrome {
+	background-image: linear-gradient(to right, green, red, yellow, blue);
+}
+
+.fa-android {
+	background-color: green;
+}
+
+.fa-apple {
+	background-color: white;
+}
+
